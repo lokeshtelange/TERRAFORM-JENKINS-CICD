@@ -12,12 +12,12 @@ variable "instance_type" {
 }
 variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
-  default     = "ami-0f5ee92e2d63afc18"
+  default     = "ami-03bb6d83c60fc5f7c"
 }
 variable "bucket_name" {
   description = "The name of the S3 bucket to create"
   type        = string
-  default     = "mrcloudbook-777-ajaykumar-yegireddi"
+  default     = "jenkins-cicdbucket"
 }
 
 variable "acl" {
